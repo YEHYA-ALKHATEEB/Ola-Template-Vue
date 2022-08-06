@@ -1,0 +1,96 @@
+// responsive
+
+       @media (max-width: 992px) {
+           main{
+                margin-top: 74px;
+           }
+       }
+       
+       @media (min-width: 1204px) {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 4.2%;
+      }
+       }
+
+      
+
+       @media (min-width: 1024px ) and (max-width: 1203px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 5.4%;
+      }
+       }
+       @media (min-width: 768px ) and (max-width: 1023px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 8.5%;
+      }
+       }
+       @media (min-width: 700px ) and (max-width: 768px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 7.8%;
+      }
+       }
+       @media (min-width: 401px ) and (max-width: 700px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 12.9%;
+      }
+       }
+       @media (min-width: 335px ) and (max-width: 400px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 13.3%;
+      }
+       }
+
+       @media (min-width: 245px ) and (max-width: 316px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 17%;
+      }
+       }
+       
+       @media (max-width: 244px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 32%;
+      }
+       }
+       @media (max-width: 200px )
+       {
+        .circle{
+            background-color: $primary;
+            width: 73px;
+            height: 73px;
+            margin-left: 32%;
+      }
+       }
+       
+    
+

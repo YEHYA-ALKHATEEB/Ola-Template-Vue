@@ -1,0 +1,21 @@
+//
+// import scss and bootstrap
+// --------------------------------------------------
+@import './custom/variables';
+$theme-colors: ("primary": $primary,
+"lightblue": $lightblue,
+"lightsecondary": $lightsecondary,
+"danger": $danger,
+"secondary": $secondary);
+
+
+        @import '~bootstrap/scss/bootstrap';
+
+// add rtl support
+//@import './custom/rtl';
+//@import './custom/rtl-addon';
+
+// User styles (your own styles/overrides)
+@import './custom/addons';
+@import './custom/main';
+@import './custom/responsive';
